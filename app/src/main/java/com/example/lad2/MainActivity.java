@@ -72,4 +72,28 @@ public class MainActivity extends AppCompatActivity {
   float getAreaCircle(float radius){
         return 3.14f*radius*radius;
   }
+
+
+    public static void main(String[] args) {
+        Animal animalA = new Animal();
+
+        animalA.color = "black";
+        animalA.weight = 4 ;
+        animalA.Breed = "tiger";
+        animalA.eat();
+        animalA.run();
+        animalA.move();
+        animalA.sleep();
+
+        Book book1 = new Book();
+        book1.Author = "J. K. Rowling";
+        book1.name = "Harry Potter";
+        book1.printYear = 1997;
+        book1.type = "hardcover book";
+        book1.read();
+        book1.openclose();
+        book1.Separator();
+
+
+    }
 }
